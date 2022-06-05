@@ -1,8 +1,6 @@
-import { DefaultTheme } from 'styled-components';
+export type TDefault = typeof defaultTheme;
 
-const defaultTheme: DefaultTheme = {
-  borderRadius: '5px',
-
+const defaultTheme = {
   colors: {
     main: 'cyan',
     secondary: 'magenta',
@@ -11,6 +9,7 @@ const defaultTheme: DefaultTheme = {
   },
 
   sizes: {
+    spacing: 8,
     appPadding: 16,
   },
 };

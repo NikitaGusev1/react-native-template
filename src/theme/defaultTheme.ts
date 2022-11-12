@@ -34,3 +34,5 @@ const defaultTheme = {
     button: 24,
   },
 };
+
+export { defaultTheme };
